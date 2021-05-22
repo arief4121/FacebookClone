@@ -387,6 +387,10 @@ form.search::after {
     font-size: 13px;
 }
 
+.down-title a:hover{
+    color: #2196F3;
+}
+
 .down-image{
     display: flex;
     flex-direction: column;
