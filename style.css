@@ -407,7 +407,7 @@ form.search::after {
 @media screen and (max-device-width : 600px) {
   
     .main{
-        width: 600px;
+        width: 550px;
     }
     
     .navbar{
@@ -416,7 +416,7 @@ form.search::after {
     }
 
     .nav-content{
-        width: 600px;
+        width: 550px;
         margin: 0;
         display: flex;
         justify-content: space-around;
@@ -443,7 +443,7 @@ form.search::after {
   @media screen and (max-device-width : 1024px) {
   
     .main{
-        width: 1030px;
+        width: 1024px;
     }
 
     .navbar{
@@ -453,7 +453,7 @@ form.search::after {
     }
     
     .nav-content{
-        width: 1030px;
+        width: 1024px;
         margin: 0;
         display: flex;
         justify-content: space-around;
