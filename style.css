@@ -404,24 +404,25 @@ form.search::after {
     margin: 10px;
 }
 
-@media screen and (max-device-width : 600px) {
+@media (min-device-width: 468px) and (max-device-width: 767px) {
   
     .main{
-        width: 550px;
+        width: 600px;
     }
     
     .navbar{
         height: 70px;
-        width: 600px;
+        width: 660px;
     }
 
     .nav-content{
-        width: 550px;
+        width: 600px;
         margin: 0;
         display: flex;
         justify-content: space-around;
         padding-top: 20px;
     }
+
     .nav-content form{
         display: none;
     }
@@ -436,24 +437,23 @@ form.search::after {
 
     .right-content{
         display: none;
-    }
-    
-  }
-
-  @media screen and (max-device-width : 1024px) {
+    }    
+}
+  
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
   
     .main{
-        width: 1024px;
+        width: 768px;
     }
 
     .navbar{
         height: 60px;
-        width: 1030px;
+        width: 1024px;
 
     }
     
     .nav-content{
-        width: 1024px;
+        width: 768px;
         margin: 0;
         display: flex;
         justify-content: space-around;
@@ -469,3 +469,5 @@ form.search::after {
     }
   }
   
+    
+}
