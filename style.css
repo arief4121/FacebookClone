@@ -440,20 +440,20 @@ form.search::after {
     
   }
 
-  @media screen and (max-device-width : 768px) {
+  @media screen and (max-device-width : 1024px) {
   
     .main{
-        width: 800px;
+        width: 1030px;
     }
 
     .navbar{
         height: 60px;
-        width: 800px;
+        width: 1030px;
 
     }
     
     .nav-content{
-        width: 800px;
+        width: 1030px;
         margin: 0;
         display: flex;
         justify-content: space-around;
