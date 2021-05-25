@@ -404,7 +404,7 @@ form.search::after {
     margin: 10px;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   
     .main{
         width: 600px;
