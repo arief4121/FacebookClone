@@ -404,7 +404,7 @@ form.search::after {
     margin: 10px;
 }
 
-@media screen and (min-width : 481px) {
+@media screen and (min-device-width : 481px) {
   
     .main{
         width: 600px;
@@ -412,11 +412,11 @@ form.search::after {
     
     .navbar{
         height: 70px;
-        width: 767px;
+        width: 600px;
     }
 
     .nav-content{
-        width: 580px;
+        width: 600px;
         margin: 0;
         display: flex;
         justify-content: space-around;
@@ -440,20 +440,20 @@ form.search::after {
     
   }
 
-  @media screen and (min-width : 768px) {
+  @media screen and (min-device-width : 768px) {
   
     .main{
-        width: 1024px;
+        width: 800px;
     }
 
     .navbar{
         height: 60px;
-        width: 1024px;
+        width: 800px;
 
     }
     
     .nav-content{
-        width: 1024px;
+        width: 800px;
         margin: 0;
         display: flex;
         justify-content: space-around;
