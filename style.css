@@ -15,6 +15,7 @@ body{
     background-color: #aeaeae;
     height: 50px;
     align-items: center;
+    width: auto;
 }
 
 .nav-content{
@@ -404,7 +405,7 @@ form.search::after {
     margin: 10px;
 }
 
-@media (min-device-width: 468px) and (max-device-width: 767px) {
+@media screen and (max-width: 600px) {
   
     .main{
         width: 600px;
@@ -412,7 +413,7 @@ form.search::after {
     
     .navbar{
         height: 70px;
-        width: 660px;
+        width: 600px;
     }
 
     .nav-content{
@@ -440,7 +441,7 @@ form.search::after {
     }    
 }
   
-@media (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (min-width : 768px) and (max-width: 1024px) {
   
     .main{
         width: 768px;
