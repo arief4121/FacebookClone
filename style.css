@@ -501,7 +501,7 @@ form.search::after {
 
     .navbar{
         height: 60px;
-        width: 1024px;
+        width: 950px;
 
     }
     
@@ -511,6 +511,7 @@ form.search::after {
         display: flex;
         justify-content: space-around;
         padding-top: 20px;
+        padding-left: 150px
     }
 
     .nav-content form{
@@ -521,5 +522,3 @@ form.search::after {
         display: none;
     }
 }
-  
-    
