@@ -459,6 +459,7 @@ form.search::after {
         display: flex;
         justify-content: space-around;
         padding-top: 20px;
+        padding-left: 150px
     }
 
     .nav-content form{
