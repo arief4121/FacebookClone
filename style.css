@@ -95,22 +95,6 @@ form.search::after {
 }
 
 
-.button {
-    height: 32px;
-    padding: 7px;
-    background-color: #2690e7;
-    border-radius: 10px;
-    margin-left: 60px;
-}
-
-.button a{
-    color: #ffffff;
-    font-weight: bold;
-}
-
-.button:hover{
-    background-color: #0570c9;
-}
 
 
 /*Main*/
@@ -432,6 +416,10 @@ form.search::after {
     display: none;
 }
 
+.button{
+    display: none;
+}
+
 @media screen and (max-width: 600px) {
   
     .main{
@@ -440,6 +428,25 @@ form.search::after {
         flex-direction: column;
 
     }
+
+    .button {
+        height: 32px;
+        padding: 7px;
+        background-color: #2690e7;
+        border-radius: 10px;
+        margin-left: 60px;
+        display: block;
+    }
+    
+    .button a{
+        color: #ffffff;
+        font-weight: bold;
+    }
+    
+    .button:hover{
+        background-color: #0570c9;
+    }
+    
     
     .navbar{
         height: 70px;
